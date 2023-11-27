@@ -51,9 +51,15 @@ animate();
 const toggle = document.querySelectorAll('.toggle');
 
 toggle.forEach((el, index) => {
+
+    myImage.src=`sprites/${toggle[index].ariaLabel}.png`;
+
+
     el.addEventListener('click', () => {
 
-        toggle.forEach(e => e.classList.remove('active'));
+        toggle.forEach(e => 
+            e.classList.remove('active')
+        );
         toggle[index].classList.add('active');
 
 
