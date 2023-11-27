@@ -57,7 +57,7 @@ toggle.forEach((el, index) => {
         toggle[index].classList.add('active');
 
 
-        myImage.src=`${toggle[index].ariaLabel}.png`;
+        myImage.src=`sprites/${toggle[index].ariaLabel}.png`;
         gameFrame = 0;
         outerIndex = index;
         FrameCount = animationStates[index];
