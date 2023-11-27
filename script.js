@@ -7,7 +7,7 @@ const spriteWidth = 540 / 4, spriteHeight = 135;
 
 let gameFrame = 1;
 let stagger = 0;
-let staggerFrame = 10;
+let staggerFrame = 15;
 
 let FrameCount = 10;
 
